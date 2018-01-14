@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		354BA5AF200AD45800B45635 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 354BA5AE200AD45800B45635 /* AppDelegate.m */; };
+		354BA5B7200AD45800B45635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354BA5B6200AD45800B45635 /* Assets.xcassets */; };
+		354BA5BA200AD45800B45635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354BA5B8200AD45800B45635 /* LaunchScreen.storyboard */; };
+		354BA5BD200AD45800B45635 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 354BA5BC200AD45800B45635 /* main.m */; };
+		354BA5C7200AD45800B45635 /* iSocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 354BA5C6200AD45800B45635 /* iSocialTests.m */; };
+		354BA5D2200AD45800B45635 /* iSocialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 354BA5D1200AD45800B45635 /* iSocialUITests.m */; };
+		354BA5E5200AD69400B45635 /* SCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354BA5E4200AD69400B45635 /* SCTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		354BA5C3200AD45800B45635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354BA5A2200AD45700B45635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 354BA5A9200AD45700B45635;
+			remoteInfo = iSocial;
+		};
+		354BA5CE200AD45800B45635 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354BA5A2200AD45700B45635 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 354BA5A9200AD45700B45635;
+			remoteInfo = iSocial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		354BA5AA200AD45700B45635 /* iSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		354BA5AD200AD45800B45635 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		354BA5AE200AD45800B45635 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		354BA5B6200AD45800B45635 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		354BA5B9200AD45800B45635 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		354BA5BB200AD45800B45635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354BA5BC200AD45800B45635 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		354BA5C2200AD45800B45635 /* iSocialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSocialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		354BA5C6200AD45800B45635 /* iSocialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSocialTests.m; sourceTree = "<group>"; };
+		354BA5C8200AD45800B45635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354BA5CD200AD45800B45635 /* iSocialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSocialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		354BA5D1200AD45800B45635 /* iSocialUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSocialUITests.m; sourceTree = "<group>"; };
+		354BA5D3200AD45800B45635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354BA5E3200AD69400B45635 /* SCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTabBarController.h; sourceTree = "<group>"; };
+		354BA5E4200AD69400B45635 /* SCTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		354BA5A7200AD45700B45635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354BA5BF200AD45800B45635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354BA5CA200AD45800B45635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		354BA5A1200AD45700B45635 = {
+			isa = PBXGroup;
+			children = (
+				354BA5AC200AD45700B45635 /* iSocial */,
+				354BA5C5200AD45800B45635 /* iSocialTests */,
+				354BA5D0200AD45800B45635 /* iSocialUITests */,
+				354BA5AB200AD45700B45635 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		354BA5AB200AD45700B45635 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				354BA5AA200AD45700B45635 /* iSocial.app */,
+				354BA5C2200AD45800B45635 /* iSocialTests.xctest */,
+				354BA5CD200AD45800B45635 /* iSocialUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		354BA5AC200AD45700B45635 /* iSocial */ = {
+			isa = PBXGroup;
+			children = (
+				354BA5DF200AD4B100B45635 /* ViewController */,
+				354BA5AD200AD45800B45635 /* AppDelegate.h */,
+				354BA5AE200AD45800B45635 /* AppDelegate.m */,
+				354BA5B6200AD45800B45635 /* Assets.xcassets */,
+				354BA5B8200AD45800B45635 /* LaunchScreen.storyboard */,
+				354BA5BB200AD45800B45635 /* Info.plist */,
+				354BA5BC200AD45800B45635 /* main.m */,
+			);
+			path = iSocial;
+			sourceTree = "<group>";
+		};
+		354BA5C5200AD45800B45635 /* iSocialTests */ = {
+			isa = PBXGroup;
+			children = (
+				354BA5C6200AD45800B45635 /* iSocialTests.m */,
+				354BA5C8200AD45800B45635 /* Info.plist */,
+			);
+			path = iSocialTests;
+			sourceTree = "<group>";
+		};
+		354BA5D0200AD45800B45635 /* iSocialUITests */ = {
+			isa = PBXGroup;
+			children = (
+				354BA5D1200AD45800B45635 /* iSocialUITests.m */,
+				354BA5D3200AD45800B45635 /* Info.plist */,
+			);
+			path = iSocialUITests;
+			sourceTree = "<group>";
+		};
+		354BA5DF200AD4B100B45635 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				354BA5E3200AD69400B45635 /* SCTabBarController.h */,
+				354BA5E4200AD69400B45635 /* SCTabBarController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		354BA5A9200AD45700B45635 /* iSocial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354BA5D6200AD45800B45635 /* Build configuration list for PBXNativeTarget "iSocial" */;
+			buildPhases = (
+				354BA5A6200AD45700B45635 /* Sources */,
+				354BA5A7200AD45700B45635 /* Frameworks */,
+				354BA5A8200AD45700B45635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSocial;
+			productName = iSocial;
+			productReference = 354BA5AA200AD45700B45635 /* iSocial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		354BA5C1200AD45800B45635 /* iSocialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354BA5D9200AD45800B45635 /* Build configuration list for PBXNativeTarget "iSocialTests" */;
+			buildPhases = (
+				354BA5BE200AD45800B45635 /* Sources */,
+				354BA5BF200AD45800B45635 /* Frameworks */,
+				354BA5C0200AD45800B45635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				354BA5C4200AD45800B45635 /* PBXTargetDependency */,
+			);
+			name = iSocialTests;
+			productName = iSocialTests;
+			productReference = 354BA5C2200AD45800B45635 /* iSocialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		354BA5CC200AD45800B45635 /* iSocialUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354BA5DC200AD45800B45635 /* Build configuration list for PBXNativeTarget "iSocialUITests" */;
+			buildPhases = (
+				354BA5C9200AD45800B45635 /* Sources */,
+				354BA5CA200AD45800B45635 /* Frameworks */,
+				354BA5CB200AD45800B45635 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				354BA5CF200AD45800B45635 /* PBXTargetDependency */,
+			);
+			name = iSocialUITests;
+			productName = iSocialUITests;
+			productReference = 354BA5CD200AD45800B45635 /* iSocialUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		354BA5A2200AD45700B45635 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Kailin Tang";
+				TargetAttributes = {
+					354BA5A9200AD45700B45635 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					354BA5C1200AD45800B45635 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 354BA5A9200AD45700B45635;
+					};
+					354BA5CC200AD45800B45635 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 354BA5A9200AD45700B45635;
+					};
+				};
+			};
+			buildConfigurationList = 354BA5A5200AD45700B45635 /* Build configuration list for PBXProject "iSocial" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 354BA5A1200AD45700B45635;
+			productRefGroup = 354BA5AB200AD45700B45635 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				354BA5A9200AD45700B45635 /* iSocial */,
+				354BA5C1200AD45800B45635 /* iSocialTests */,
+				354BA5CC200AD45800B45635 /* iSocialUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		354BA5A8200AD45700B45635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354BA5BA200AD45800B45635 /* LaunchScreen.storyboard in Resources */,
+				354BA5B7200AD45800B45635 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354BA5C0200AD45800B45635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354BA5CB200AD45800B45635 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		354BA5A6200AD45700B45635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354BA5BD200AD45800B45635 /* main.m in Sources */,
+				354BA5E5200AD69400B45635 /* SCTabBarController.m in Sources */,
+				354BA5AF200AD45800B45635 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354BA5BE200AD45800B45635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354BA5C7200AD45800B45635 /* iSocialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354BA5C9200AD45800B45635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354BA5D2200AD45800B45635 /* iSocialUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		354BA5C4200AD45800B45635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 354BA5A9200AD45700B45635 /* iSocial */;
+			targetProxy = 354BA5C3200AD45800B45635 /* PBXContainerItemProxy */;
+		};
+		354BA5CF200AD45800B45635 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 354BA5A9200AD45700B45635 /* iSocial */;
+			targetProxy = 354BA5CE200AD45800B45635 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		354BA5B8200AD45800B45635 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354BA5B9200AD45800B45635 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		354BA5D4200AD45800B45635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		354BA5D5200AD45800B45635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		354BA5D7200AD45800B45635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kailin.iSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		354BA5D8200AD45800B45635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iSocial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kailin.iSocial;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		354BA5DA200AD45800B45635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kailin.iSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSocial.app/iSocial";
+			};
+			name = Debug;
+		};
+		354BA5DB200AD45800B45635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iSocialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kailin.iSocialTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iSocial.app/iSocial";
+			};
+			name = Release;
+		};
+		354BA5DD200AD45800B45635 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kailin.iSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iSocial;
+			};
+			name = Debug;
+		};
+		354BA5DE200AD45800B45635 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iSocialUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Kailin.iSocialUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iSocial;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		354BA5A5200AD45700B45635 /* Build configuration list for PBXProject "iSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354BA5D4200AD45800B45635 /* Debug */,
+				354BA5D5200AD45800B45635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354BA5D6200AD45800B45635 /* Build configuration list for PBXNativeTarget "iSocial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354BA5D7200AD45800B45635 /* Debug */,
+				354BA5D8200AD45800B45635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354BA5D9200AD45800B45635 /* Build configuration list for PBXNativeTarget "iSocialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354BA5DA200AD45800B45635 /* Debug */,
+				354BA5DB200AD45800B45635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354BA5DC200AD45800B45635 /* Build configuration list for PBXNativeTarget "iSocialUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354BA5DD200AD45800B45635 /* Debug */,
+				354BA5DE200AD45800B45635 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 354BA5A2200AD45700B45635 /* Project object */;
+}
