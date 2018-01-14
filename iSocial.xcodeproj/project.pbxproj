@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35344B86200C204900048449 /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35344B84200C204900048449 /* SCHomeViewController.m */; };
+		35344B87200C204900048449 /* SCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35344B85200C204900048449 /* SCHomeViewController.xib */; };
 		354BA5AF200AD45800B45635 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 354BA5AE200AD45800B45635 /* AppDelegate.m */; };
 		354BA5B7200AD45800B45635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354BA5B6200AD45800B45635 /* Assets.xcassets */; };
 		354BA5BA200AD45800B45635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354BA5B8200AD45800B45635 /* LaunchScreen.storyboard */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35344B83200C204900048449 /* SCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHomeViewController.h; sourceTree = "<group>"; };
+		35344B84200C204900048449 /* SCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHomeViewController.m; sourceTree = "<group>"; };
+		35344B85200C204900048449 /* SCHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCHomeViewController.xib; sourceTree = "<group>"; };
 		354BA5AA200AD45700B45635 /* iSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		354BA5AD200AD45800B45635 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		354BA5AE200AD45800B45635 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +107,9 @@
 				354BA5DF200AD4B100B45635 /* ViewController */,
 				354BA5AD200AD45800B45635 /* AppDelegate.h */,
 				354BA5AE200AD45800B45635 /* AppDelegate.m */,
+				35344B83200C204900048449 /* SCHomeViewController.h */,
+				35344B84200C204900048449 /* SCHomeViewController.m */,
+				35344B85200C204900048449 /* SCHomeViewController.xib */,
 				354BA5B6200AD45800B45635 /* Assets.xcassets */,
 				354BA5B8200AD45800B45635 /* LaunchScreen.storyboard */,
 				354BA5BB200AD45800B45635 /* Info.plist */,
@@ -243,6 +251,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35344B87200C204900048449 /* SCHomeViewController.xib in Resources */,
 				354BA5BA200AD45800B45635 /* LaunchScreen.storyboard in Resources */,
 				354BA5B7200AD45800B45635 /* Assets.xcassets in Resources */,
 			);
@@ -272,6 +281,7 @@
 				354BA5BD200AD45800B45635 /* main.m in Sources */,
 				354BA5E5200AD69400B45635 /* SCTabBarController.m in Sources */,
 				354BA5AF200AD45800B45635 /* AppDelegate.m in Sources */,
+				35344B86200C204900048449 /* SCHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
