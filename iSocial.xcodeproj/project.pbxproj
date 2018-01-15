@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		35344B86200C204900048449 /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35344B84200C204900048449 /* SCHomeViewController.m */; };
 		35344B87200C204900048449 /* SCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35344B85200C204900048449 /* SCHomeViewController.xib */; };
+		35344B91200C2B9900048449 /* SCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35344B8F200C2B9900048449 /* SCHomeTableViewCell.m */; };
+		35344B92200C2B9900048449 /* SCHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35344B90200C2B9900048449 /* SCHomeTableViewCell.xib */; };
 		354BA5AF200AD45800B45635 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 354BA5AE200AD45800B45635 /* AppDelegate.m */; };
 		354BA5B7200AD45800B45635 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354BA5B6200AD45800B45635 /* Assets.xcassets */; };
 		354BA5BA200AD45800B45635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354BA5B8200AD45800B45635 /* LaunchScreen.storyboard */; };
@@ -39,6 +41,9 @@
 		35344B83200C204900048449 /* SCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHomeViewController.h; sourceTree = "<group>"; };
 		35344B84200C204900048449 /* SCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHomeViewController.m; sourceTree = "<group>"; };
 		35344B85200C204900048449 /* SCHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCHomeViewController.xib; sourceTree = "<group>"; };
+		35344B8E200C2B9900048449 /* SCHomeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHomeTableViewCell.h; sourceTree = "<group>"; };
+		35344B8F200C2B9900048449 /* SCHomeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHomeTableViewCell.m; sourceTree = "<group>"; };
+		35344B90200C2B9900048449 /* SCHomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCHomeTableViewCell.xib; sourceTree = "<group>"; };
 		354BA5AA200AD45700B45635 /* iSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		354BA5AD200AD45800B45635 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		354BA5AE200AD45800B45635 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -81,6 +86,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35344B8D200C2B2000048449 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				35344B8E200C2B9900048449 /* SCHomeTableViewCell.h */,
+				35344B8F200C2B9900048449 /* SCHomeTableViewCell.m */,
+				35344B90200C2B9900048449 /* SCHomeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		354BA5A1200AD45700B45635 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +119,7 @@
 		354BA5AC200AD45700B45635 /* iSocial */ = {
 			isa = PBXGroup;
 			children = (
+				35344B8D200C2B2000048449 /* View */,
 				354BA5DF200AD4B100B45635 /* ViewController */,
 				354BA5AD200AD45800B45635 /* AppDelegate.h */,
 				354BA5AE200AD45800B45635 /* AppDelegate.m */,
@@ -253,6 +269,7 @@
 			files = (
 				35344B87200C204900048449 /* SCHomeViewController.xib in Resources */,
 				354BA5BA200AD45800B45635 /* LaunchScreen.storyboard in Resources */,
+				35344B92200C2B9900048449 /* SCHomeTableViewCell.xib in Resources */,
 				354BA5B7200AD45800B45635 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				354BA5BD200AD45800B45635 /* main.m in Sources */,
+				35344B91200C2B9900048449 /* SCHomeTableViewCell.m in Sources */,
 				354BA5E5200AD69400B45635 /* SCTabBarController.m in Sources */,
 				354BA5AF200AD45800B45635 /* AppDelegate.m in Sources */,
 				35344B86200C204900048449 /* SCHomeViewController.m in Sources */,
