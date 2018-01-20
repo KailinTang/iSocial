@@ -10,6 +10,7 @@
 		07A69F639091B1F0C5029A0B /* libPods-iSocialTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FC312DDFA1DEEA8177EA00 /* libPods-iSocialTests.a */; };
 		129C64EE0DBE809BB7AC909B /* libPods-iSocialUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D235196CC30C4BA5C8FC68F0 /* libPods-iSocialUITests.a */; };
 		35082CE020140CA900013A2C /* SCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 35082CDF20140CA900013A2C /* SCUser.m */; };
+		35082CE420140D7900013A2C /* SCUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35082CE320140D7900013A2C /* SCUserManager.m */; };
 		35344B86200C204900048449 /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35344B84200C204900048449 /* SCHomeViewController.m */; };
 		35344B87200C204900048449 /* SCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35344B85200C204900048449 /* SCHomeViewController.xib */; };
 		35344B91200C2B9900048449 /* SCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35344B8F200C2B9900048449 /* SCHomeTableViewCell.m */; };
@@ -47,6 +48,8 @@
 		30F4E83A82C7ABEADBCC4491 /* Pods-iSocialUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSocialUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSocialUITests/Pods-iSocialUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		35082CDE20140CA900013A2C /* SCUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCUser.h; sourceTree = "<group>"; };
 		35082CDF20140CA900013A2C /* SCUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCUser.m; sourceTree = "<group>"; };
+		35082CE220140D7900013A2C /* SCUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCUserManager.h; sourceTree = "<group>"; };
+		35082CE320140D7900013A2C /* SCUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCUserManager.m; sourceTree = "<group>"; };
 		35344B83200C204900048449 /* SCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHomeViewController.h; sourceTree = "<group>"; };
 		35344B84200C204900048449 /* SCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHomeViewController.m; sourceTree = "<group>"; };
 		35344B85200C204900048449 /* SCHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCHomeViewController.xib; sourceTree = "<group>"; };
@@ -126,6 +129,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		35082CE120140D5B00013A2C /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				35082CE220140D7900013A2C /* SCUserManager.h */,
+				35082CE320140D7900013A2C /* SCUserManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		35344B8D200C2B2000048449 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +173,7 @@
 		354BA5AC200AD45700B45635 /* iSocial */ = {
 			isa = PBXGroup;
 			children = (
+				35082CE120140D5B00013A2C /* Manager */,
 				35082CDD20140C7500013A2C /* Model */,
 				35344B8D200C2B2000048449 /* View */,
 				354BA5DF200AD4B100B45635 /* ViewController */,
@@ -506,6 +519,7 @@
 			files = (
 				354BA5BD200AD45800B45635 /* main.m in Sources */,
 				35344B91200C2B9900048449 /* SCHomeTableViewCell.m in Sources */,
+				35082CE420140D7900013A2C /* SCUserManager.m in Sources */,
 				354BA5E5200AD69400B45635 /* SCTabBarController.m in Sources */,
 				354BA5AF200AD45800B45635 /* AppDelegate.m in Sources */,
 				35082CE020140CA900013A2C /* SCUser.m in Sources */,
