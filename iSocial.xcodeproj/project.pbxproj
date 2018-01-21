@@ -11,6 +11,7 @@
 		129C64EE0DBE809BB7AC909B /* libPods-iSocialUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D235196CC30C4BA5C8FC68F0 /* libPods-iSocialUITests.a */; };
 		35082CE020140CA900013A2C /* SCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 35082CDF20140CA900013A2C /* SCUser.m */; };
 		35082CE420140D7900013A2C /* SCUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35082CE320140D7900013A2C /* SCUserManager.m */; };
+		35082CE720155C1F00013A2C /* SCSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35082CE620155C1F00013A2C /* SCSignInViewController.m */; };
 		35344B86200C204900048449 /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35344B84200C204900048449 /* SCHomeViewController.m */; };
 		35344B87200C204900048449 /* SCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35344B85200C204900048449 /* SCHomeViewController.xib */; };
 		35344B91200C2B9900048449 /* SCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35344B8F200C2B9900048449 /* SCHomeTableViewCell.m */; };
@@ -50,6 +51,8 @@
 		35082CDF20140CA900013A2C /* SCUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCUser.m; sourceTree = "<group>"; };
 		35082CE220140D7900013A2C /* SCUserManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCUserManager.h; sourceTree = "<group>"; };
 		35082CE320140D7900013A2C /* SCUserManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCUserManager.m; sourceTree = "<group>"; };
+		35082CE520155C1F00013A2C /* SCSignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCSignInViewController.h; sourceTree = "<group>"; };
+		35082CE620155C1F00013A2C /* SCSignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCSignInViewController.m; sourceTree = "<group>"; };
 		35344B83200C204900048449 /* SCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHomeViewController.h; sourceTree = "<group>"; };
 		35344B84200C204900048449 /* SCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHomeViewController.m; sourceTree = "<group>"; };
 		35344B85200C204900048449 /* SCHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCHomeViewController.xib; sourceTree = "<group>"; };
@@ -213,6 +216,8 @@
 			children = (
 				354BA5E3200AD69400B45635 /* SCTabBarController.h */,
 				354BA5E4200AD69400B45635 /* SCTabBarController.m */,
+				35082CE520155C1F00013A2C /* SCSignInViewController.h */,
+				35082CE620155C1F00013A2C /* SCSignInViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -517,6 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35082CE720155C1F00013A2C /* SCSignInViewController.m in Sources */,
 				354BA5BD200AD45800B45635 /* main.m in Sources */,
 				35344B91200C2B9900048449 /* SCHomeTableViewCell.m in Sources */,
 				35082CE420140D7900013A2C /* SCUserManager.m in Sources */,
