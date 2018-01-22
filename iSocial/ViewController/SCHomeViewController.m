@@ -7,6 +7,7 @@
 //
 
 
+
 #import "SCHomeViewController.h"
 #import "SCPost.h"
 #import "SCHomeTableViewCell.h"
@@ -160,5 +161,6 @@ static NSString * const SCHomeCellIdentifier = @"homeCellIdentifier";
 
 
 @end
+
 
 

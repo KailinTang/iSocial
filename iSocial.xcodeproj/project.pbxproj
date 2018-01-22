@@ -14,6 +14,9 @@
 		35082CEB2015607900013A2C /* SCSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35082CE92015607900013A2C /* SCSignInViewController.m */; };
 		35082CEC2015607900013A2C /* SCSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35082CEA2015607900013A2C /* SCSignInViewController.xib */; };
 		35082CEF201561C400013A2C /* SCPostManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35082CEE201561C400013A2C /* SCPostManager.m */; };
+		35082CF32015632E00013A2C /* SCCreatePostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35082CF12015632E00013A2C /* SCCreatePostViewController.m */; };
+		35082CF42015632E00013A2C /* SCCreatePostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35082CF22015632E00013A2C /* SCCreatePostViewController.xib */; };
+		35082CF72015639500013A2C /* SCPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 35082CF62015639500013A2C /* SCPost.m */; };
 		35344B86200C204900048449 /* SCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35344B84200C204900048449 /* SCHomeViewController.m */; };
 		35344B87200C204900048449 /* SCHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35344B85200C204900048449 /* SCHomeViewController.xib */; };
 		35344B91200C2B9900048449 /* SCHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 35344B8F200C2B9900048449 /* SCHomeTableViewCell.m */; };
@@ -58,6 +61,11 @@
 		35082CEA2015607900013A2C /* SCSignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCSignInViewController.xib; sourceTree = "<group>"; };
 		35082CED201561C400013A2C /* SCPostManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCPostManager.h; sourceTree = "<group>"; };
 		35082CEE201561C400013A2C /* SCPostManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPostManager.m; sourceTree = "<group>"; };
+		35082CF02015632E00013A2C /* SCCreatePostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCCreatePostViewController.h; sourceTree = "<group>"; };
+		35082CF12015632E00013A2C /* SCCreatePostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCCreatePostViewController.m; sourceTree = "<group>"; };
+		35082CF22015632E00013A2C /* SCCreatePostViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCCreatePostViewController.xib; sourceTree = "<group>"; };
+		35082CF52015639500013A2C /* SCPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCPost.h; sourceTree = "<group>"; };
+		35082CF62015639500013A2C /* SCPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCPost.m; sourceTree = "<group>"; };
 		35344B83200C204900048449 /* SCHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCHomeViewController.h; sourceTree = "<group>"; };
 		35344B84200C204900048449 /* SCHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCHomeViewController.m; sourceTree = "<group>"; };
 		35344B85200C204900048449 /* SCHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCHomeViewController.xib; sourceTree = "<group>"; };
@@ -133,6 +141,8 @@
 			children = (
 				35082CDE20140CA900013A2C /* SCUser.h */,
 				35082CDF20140CA900013A2C /* SCUser.m */,
+				35082CF52015639500013A2C /* SCPost.h */,
+				35082CF62015639500013A2C /* SCPost.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -189,9 +199,6 @@
 				354BA5DF200AD4B100B45635 /* ViewController */,
 				354BA5AD200AD45800B45635 /* AppDelegate.h */,
 				354BA5AE200AD45800B45635 /* AppDelegate.m */,
-				35344B83200C204900048449 /* SCHomeViewController.h */,
-				35344B84200C204900048449 /* SCHomeViewController.m */,
-				35344B85200C204900048449 /* SCHomeViewController.xib */,
 				354BA5B6200AD45800B45635 /* Assets.xcassets */,
 				354BA5B8200AD45800B45635 /* LaunchScreen.storyboard */,
 				354BA5BB200AD45800B45635 /* Info.plist */,
@@ -221,11 +228,17 @@
 		354BA5DF200AD4B100B45635 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				35344B83200C204900048449 /* SCHomeViewController.h */,
+				35344B84200C204900048449 /* SCHomeViewController.m */,
+				35344B85200C204900048449 /* SCHomeViewController.xib */,
 				354BA5E3200AD69400B45635 /* SCTabBarController.h */,
 				354BA5E4200AD69400B45635 /* SCTabBarController.m */,
 				35082CE82015607900013A2C /* SCSignInViewController.h */,
 				35082CE92015607900013A2C /* SCSignInViewController.m */,
 				35082CEA2015607900013A2C /* SCSignInViewController.xib */,
+				35082CF02015632E00013A2C /* SCCreatePostViewController.h */,
+				35082CF12015632E00013A2C /* SCCreatePostViewController.m */,
+				35082CF22015632E00013A2C /* SCCreatePostViewController.xib */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -359,6 +372,7 @@
 				354BA5BA200AD45800B45635 /* LaunchScreen.storyboard in Resources */,
 				35344B92200C2B9900048449 /* SCHomeTableViewCell.xib in Resources */,
 				354BA5B7200AD45800B45635 /* Assets.xcassets in Resources */,
+				35082CF42015632E00013A2C /* SCCreatePostViewController.xib in Resources */,
 				35082CEC2015607900013A2C /* SCSignInViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -531,6 +545,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35082CF32015632E00013A2C /* SCCreatePostViewController.m in Sources */,
+				35082CF72015639500013A2C /* SCPost.m in Sources */,
 				35082CEB2015607900013A2C /* SCSignInViewController.m in Sources */,
 				354BA5BD200AD45800B45635 /* main.m in Sources */,
 				35344B91200C2B9900048449 /* SCHomeTableViewCell.m in Sources */,
