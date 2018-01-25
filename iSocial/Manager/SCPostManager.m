@@ -15,7 +15,7 @@
 #import "SCUser.h"
 #import <CoreLocation/CoreLocation.h>
 
-static NSString * const SCBaseURLString = @"https://a...content-available-to-author-only...t.com";
+static NSString * const SCBaseURLString = @"https://around-75015.appspot.com";
 
 @implementation SCPostManager
 
