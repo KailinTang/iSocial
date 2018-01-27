@@ -28,6 +28,7 @@
 		354BA5C7200AD45800B45635 /* iSocialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 354BA5C6200AD45800B45635 /* iSocialTests.m */; };
 		354BA5D2200AD45800B45635 /* iSocialUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 354BA5D1200AD45800B45635 /* iSocialUITests.m */; };
 		354BA5E5200AD69400B45635 /* SCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354BA5E4200AD69400B45635 /* SCTabBarController.m */; };
+		35C6BF3A201D338F00072694 /* SCLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 35C6BF39201D338F00072694 /* SCLocationManager.m */; };
 		7D06CA74AEA67E0E9E3C028C /* libPods-iSocial.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F720AA09ABACAD088C1FCFF2 /* libPods-iSocial.a */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,8 @@
 		354BA5D3200AD45800B45635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		354BA5E3200AD69400B45635 /* SCTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCTabBarController.h; sourceTree = "<group>"; };
 		354BA5E4200AD69400B45635 /* SCTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTabBarController.m; sourceTree = "<group>"; };
+		35C6BF38201D338F00072694 /* SCLocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCLocationManager.h; sourceTree = "<group>"; };
+		35C6BF39201D338F00072694 /* SCLocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCLocationManager.m; sourceTree = "<group>"; };
 		3A2EA2122112A52C47CD0BF4 /* Pods-iSocialTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSocialTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSocialTests/Pods-iSocialTests.release.xcconfig"; sourceTree = "<group>"; };
 		3CD383513595ECABA84B9B71 /* Pods-iSocialUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSocialUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iSocialUITests/Pods-iSocialUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5FBA234B49641B14BEA86CC8 /* Pods-iSocial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iSocial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iSocial/Pods-iSocial.debug.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +157,8 @@
 				35082CE320140D7900013A2C /* SCUserManager.m */,
 				35082CED201561C400013A2C /* SCPostManager.h */,
 				35082CEE201561C400013A2C /* SCPostManager.m */,
+				35C6BF38201D338F00072694 /* SCLocationManager.h */,
+				35C6BF39201D338F00072694 /* SCLocationManager.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -549,6 +554,7 @@
 				35082CF72015639500013A2C /* SCPost.m in Sources */,
 				35082CEB2015607900013A2C /* SCSignInViewController.m in Sources */,
 				354BA5BD200AD45800B45635 /* main.m in Sources */,
+				35C6BF3A201D338F00072694 /* SCLocationManager.m in Sources */,
 				35344B91200C2B9900048449 /* SCHomeTableViewCell.m in Sources */,
 				35082CE420140D7900013A2C /* SCUserManager.m in Sources */,
 				354BA5E5200AD69400B45635 /* SCTabBarController.m in Sources */,
